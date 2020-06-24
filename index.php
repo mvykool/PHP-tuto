@@ -56,6 +56,13 @@ $txt1 = "Learn PHP";
 $txt2 = "W3Schools.com";
 $x = 5;
 $y = 4;
+
+$x = 1;
+
+while($x <= 5) {
+  echo "The number is: $x <br>";
+  $x++;
+
 ?>
 
 </body>
