@@ -52,10 +52,7 @@ echo "Hello world!<br>";
 echo "I'm about to learn PHP!<br>";
 echo "This ", "string ", "was ", "made ", " with multiple parameters. and more";
 
-$txt1 = "Learn PHP";
-$txt2 = "W3Schools.com";
-$x = 5;
-$y = 4;
+
 
 ?>
 
