@@ -75,11 +75,12 @@ for ($x = 0; $x <= 10; $x++) {
 	echo "$x = $val<br>";
 	}
 
-	$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-
-foreach($age as $x => $val) {
-  echo "$x = $val<br>";
-}
+	for ($x = 0; $x < 10; $x++) {
+		if ($x == 4) {
+		  continue;
+		}
+		echo "The number is: $x <br>";
+	  }
 ?>
 
 </body>
