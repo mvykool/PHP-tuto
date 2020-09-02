@@ -82,7 +82,15 @@ for ($x = 0; $x < 10; $x++) {
 	echo "The number is: $x <br>";
 }
 
-
+function familyName($fname) {
+	echo "$fname Refsnes.<br>";
+  }
+  
+  familyName("Jani");
+  familyName("Hege");
+  familyName("Stale");
+  familyName("Kai Jim");
+  familyName("Borge");
 ?>
 
 </body>
