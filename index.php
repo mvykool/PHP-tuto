@@ -92,7 +92,6 @@ function familyName($fname) {
 	familyName("Kai Jim");
 	familyName("Borge");
 
-	
 ?>
 
 </body>
