@@ -102,9 +102,9 @@ function familyName2($fname, $year) {
 
 	function addNumbers(int $a, int $b) {
 		return $a + $b;
-	  }
-	  echo addNumbers(5, "5 days");
-	  // since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
+	}
+	echo addNumbers(5, "5 days");
+	// since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
 
 ?>
 
