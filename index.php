@@ -105,6 +105,8 @@ function familyName2($fname, $year) {
 	}
 	echo addNumbers(5, "5 days");
 
+	$cars = array("Volvo", "BMW", "Toyota");
+	echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 
 ?>
 
