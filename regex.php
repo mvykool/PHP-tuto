@@ -13,7 +13,4 @@ echo preg_replace($pattern, "W3Schools", $str);
 $str = "Apples and bananas.";
 $pattern = "/ba(na){2}/i";
 echo preg_match($pattern, $str);
-
-
-
 ?>
