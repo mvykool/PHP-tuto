@@ -3,6 +3,8 @@ echo "Today is " . date("Y/m/d") . "<br>";
 echo "Today is " . date("Y.m.d") . "<br>";
 echo "Today is " . date("Y-m-d") . "<br>";
 echo "Today is " . date("l");
-&copy; 2010-<?php echo date("Y");?>
+echo date("Y");
+
+echo "The time is " . date("h:i:sa");
 
 ?>
