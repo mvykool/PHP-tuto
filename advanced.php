@@ -7,4 +7,23 @@ echo date("Y");
 
 echo "The time is " . date("h:i:sa");
 
+date_default_timezone_set("America/New_York");
+echo "The time is " . date("h:i:sa");
+
+//OOP 
+
+class Fruit {
+	public $name;
+	public $color;
+  
+	function __construct($name) {
+	  $this->name = $name;
+	}
+	function __destruct() {
+	  echo "The fruit is {$this->name}.";
+	}
+  }
+  
+  $apple = new Fruit("Apple");
+
 ?>
