@@ -26,7 +26,7 @@ class Fruit {
 
 $apple = new Fruit("Apple");
 
-class Fruit {
+class Fruit2 {
 	public $name;
 	public $color;
   
