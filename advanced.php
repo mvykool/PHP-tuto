@@ -12,5 +12,46 @@ echo "The time is " . date("h:i:sa");
 
 //OOP 
 
+class Fruit {
+	public $name;
+	public $color;
+
+	function __construct($name) {
+	$this->name = $name;
+	}
+	function __destruct() {
+	echo "The fruit is {$this->name}.";
+	}
+}
+
+$apple = new Fruit("Apple");
+
+class Fruit2 {
+	public $name;
+	public $color;
+
+	function __construct($name, $color) {
+	$this->name = $name;
+	$this->color = $color;
+	}
+	function __destruct() {
+	echo "The fruit is {$this->name} and the color is {$this->color}.";
+	}
+}
+
+$apple = new Fruit("Apple", "red");
+
+trait message1 {
+	public function msg1() {
+		echo "OOP is fun! ";
+	  }
+	}
+	
+	class Welcome {
+	  use message1;
+	}
+	
+	$obj = new Welcome();
+	$obj->msg1();
 
 ?>
