@@ -57,8 +57,6 @@ $txt2 = "W3Schools.com";
 $x = 5;
 $y = 4;
 
-
-
 ?>
 
 </body>
