@@ -89,8 +89,6 @@ if ($t < "20") {
 	echo "Have a good night!";
 	}
 
-	$t = date("H");
-	
 ?>
 
 </body>
