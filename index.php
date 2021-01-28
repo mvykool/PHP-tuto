@@ -73,6 +73,20 @@ echo(max(0, 150, 30, 20, -8, -200));
 
 define("GREETING", "Welcome to W3Schools.com!");
 echo GREETING;
+
+$t = date("H");
+
+if ($t < "20") {
+    echo "Have a good day!";
+}
+
+$t = date("H");
+
+if ($t < "20") {
+  echo "Have a good day!";
+} else {
+  echo "Have a good night!";
+}
 ?>
 
 </body>
