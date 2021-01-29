@@ -37,7 +37,6 @@ function myTest2() {
 myTest();
 echo $y; 
 
-
 $x = 5;
 $y = 10;
 
