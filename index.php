@@ -35,7 +35,7 @@ function myTest2() {
 }
 
 myTest();
-echo $y; // outputs 15
+echo $y; 
 
 
 $x = 5;
