@@ -72,7 +72,6 @@ echo "<br>";
 echo(min(0, 150, 30, 20, -8, -200));  
 echo(max(0, 150, 30, 20, -8, -200));  
 
-
 define("GREETING", "Welcome to W3Schools.com!");
 echo GREETING;
 
