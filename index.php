@@ -71,7 +71,7 @@ echo "<br>";
 echo $y;
 
 
-echo str_replace("world", "Dolly",  "Hello world!"); // outputs Hello Dolly!
+echo str_replace("world", "Dolly",  "Hello world! "); // outputs Hello Dolly!
 
 $x = 59;
 var_dump(is_int($x));
@@ -79,9 +79,6 @@ var_dump(is_int($x));
 $x = 59.85;
 var_dump(is_int($x));
 
-
-$x = 10.365;
-var_dump(is_float($x));
 ?>
 
 </body>
