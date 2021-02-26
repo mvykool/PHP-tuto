@@ -73,7 +73,7 @@ echo $y;
 
 echo str_replace("world", "Dolly",  "Hello world!sss"); // outputs Hello Dolly!
 
-$x = 5985;
+$x = 59;
 var_dump(is_int($x));
 
 $x = 59.85;
