@@ -71,7 +71,7 @@ echo "<br>";
 echo $y;
 
 
-echo str_replace("world", "Dolly", "Hello world!sss"); // outputs Hello Dolly!
+echo str_replace("world", "Dolly",  "Hello world!sss"); // outputs Hello Dolly!
 
 $x = 5985;
 var_dump(is_int($x));
