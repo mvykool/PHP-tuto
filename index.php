@@ -71,7 +71,7 @@ echo "<br>";
 echo $y;
 
 
-echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+echo str_replace("world", "Dolly", "Hello world!sss"); // outputs Hello Dolly!
 ?>
 
 </body>
