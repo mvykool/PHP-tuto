@@ -70,6 +70,8 @@ echo $x;
 echo "<br>";
 echo $y;
 
+
+echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
 ?>
 
 </body>
