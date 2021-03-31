@@ -64,7 +64,7 @@ print $x + $y;
 
 
 $x = "Hello world!";
-$y = 'Hello worlds!';
+$y = 'Hello worldss!';
 
 echo $x;
 echo "<br>";
