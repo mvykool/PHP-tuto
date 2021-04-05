@@ -62,6 +62,14 @@ print "<h2>" . $txt1 . "</h2>";
 print "Study PHP at " . $txt2 . "<br>   ";
 print $x + $y;
 
+
+$x = "Hello world!";
+$y = 'Hello world!';
+
+echo $x;
+echo "<br>";
+echo $y;
+
 ?>
 
 </body>
