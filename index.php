@@ -24,7 +24,7 @@ echo "<p>Variable x inside function is</p>";
 }
 myTest();
 
-echo "<p>Variable x outside function is: $x</p>";
+echo "<p>Variable x outside function iss: $x</p>";
 
 $x = 5;
 $y = 10;
