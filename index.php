@@ -61,17 +61,6 @@ print "<h2>" . $txt1 . "</h2>";
 print "Study PHP at " . $txt2 . "<br>";
 print $x + $y;
 
-
-$x = "Hello world!";
-$y = 'Hello worlds!';
-
-echo $x;
-echo "<br>";
-
-echo(min(0, 150, 30, 20, -8, -200));  
-echo(max(0, 150, 30, 20, -8, -200));  
-
-
 ?>
 
 </body>
