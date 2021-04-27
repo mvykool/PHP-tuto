@@ -19,7 +19,7 @@ $y = 10;
 $x = 5; // global scope
 
 function myTest() {
-  // using x inside this function will generate an error ssssss
+  // using x inside this function will generate an error
 echo "<p>Variable x inside function is</p>";
 }
 myTest();
