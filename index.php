@@ -46,7 +46,7 @@ function myTest3() {
 }
 
 myTest();
-echo $y; // outputs 15ithink
+echo $y; // outputs 15
 
 echo "<h2>PHP is Fun!</h2>";
 echo "Hello world!<br>";
