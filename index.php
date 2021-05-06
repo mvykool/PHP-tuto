@@ -42,7 +42,7 @@ $x = 5;
 $y = 10;
 
 function myTest3() {
-  $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+    $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
 }
 
 myTest();
