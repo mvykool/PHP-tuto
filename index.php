@@ -30,8 +30,8 @@ $x = 5;
 $y = 10;
 
 function myTest2() {
-  global $x, $y;
-  $y = $x + $y;
+	global $x, $y;
+	$y = $x + $y;
 }
 
 myTest();
