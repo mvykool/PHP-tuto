@@ -20,7 +20,7 @@ $x = 5; // global scope
 
 function myTest() {
   // using x inside this function will generate an error
-echo "<p>Variable x inside function is: $x</p>";
+echo "<p>Variable x inside function is</p>";
 }
 myTest();
 
@@ -29,7 +29,7 @@ echo "<p>Variable x outside function is: $x</p>";
 $x = 5;
 $y = 10;
 
-function myTest() {
+function myTest2() {
   global $x, $y;
   $y = $x + $y;
 }
