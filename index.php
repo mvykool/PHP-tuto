@@ -13,7 +13,7 @@ echo "My boat is " . $coLOR . "<br>";
 # This is also a single-line commen 
 
 $txt = "Hello world!";
-$x = 5;
+$xx = 5;
 $y = 10;
 
 $x = 5; // global scope
