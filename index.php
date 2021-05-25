@@ -14,7 +14,7 @@ echo "My boat is " . $coLOR . "<br>";
 
 $txt = "Hello world!";
 $x = 5;
-$y = 10.5;
+$y = 10;
 
 ?>
 
