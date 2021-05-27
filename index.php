@@ -10,7 +10,7 @@ echo "My boat is " . $coLOR . "<br>";
 
 // This is a single-line comment
 
-# This is also a single-line comment 
+# This is also a single-line commen 
 
 $txt = "Hello world!";
 $x = 5;
