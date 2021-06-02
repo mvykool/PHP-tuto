@@ -12,6 +12,10 @@ echo "My boat is " . $coLOR . "<br>";
 
 # This is also a single-line comment
 
+$txt = "Hello world!";
+$x = 5;
+$y = 10.5;
+
 ?>
 
 </body>
